@@ -46,6 +46,7 @@
     "voffset": "2.5mm"
   },
   "post": {
-    "copperfill": "True"
+    "copperfill": "True",
+    "origin": "bl"
   }
 }
