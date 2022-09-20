@@ -1,5 +1,5 @@
 Drill report for helios-panel.kicad_pcb
-Created on Mon Sep 19 22:01:38 2022
+Created on Tue Sep 20 21:43:32 2022
 
 Copper Layer Stackup:
     =============================================================
@@ -13,11 +13,11 @@ Drill file 'helios-panel.drl' contains
     plated through holes:
     =============================================================
     T1  0.200mm  0.0079"  (1040 holes)
-    T2  0.300mm  0.0118"  (60 holes)
+    T2  0.300mm  0.0118"  (70 holes)
     T3  0.600mm  0.0236"  (40 holes)  (with 40 slots)
     T4  1.092mm  0.0430"  (340 holes)
 
-    Total plated holes count 1480
+    Total plated holes count 1490
 
 
 Not plated through holes are merged with plated holes

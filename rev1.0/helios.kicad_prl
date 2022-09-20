@@ -1,10 +1,10 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Copper Layers",
+    "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_nets": [],
-    "high_contrast_mode": 0,
+    "high_contrast_mode": 1,
     "net_color_mode": 1,
     "opacity": {
       "pads": 1.0,
@@ -61,7 +61,7 @@
       35,
       36
     ],
-    "visible_layers": "0001000_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
@@ -75,11 +75,11 @@
         "open": false,
         "window": {
           "display": 0,
-          "maximized": false,
-          "pos_x": 1073,
-          "pos_y": 589,
-          "size_x": 1248,
-          "size_y": 1269
+          "maximized": true,
+          "pos_x": 660,
+          "pos_y": 538,
+          "size_x": 1240,
+          "size_y": 1261
         }
       }
     ]
