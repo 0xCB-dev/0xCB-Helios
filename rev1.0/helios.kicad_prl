@@ -1,16 +1,16 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Layers",
+    "active_layer_preset": "All Copper Layers",
     "auto_track_width": true,
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "pads": 1.0,
       "tracks": 0.7599999904632568,
       "vias": 0.75,
-      "zones": 1.0
+      "zones": 0.14000000059604645
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
@@ -61,7 +61,7 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "0001000_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
@@ -79,7 +79,19 @@
           "pos_x": 660,
           "pos_y": 538,
           "size_x": 1240,
-          "size_y": 1261
+          "size_y": 1034
+        }
+      },
+      {
+        "name": "helios.kicad_sch",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": false,
+          "pos_x": 2560,
+          "pos_y": 0,
+          "size_x": 1080,
+          "size_y": 1858
         }
       }
     ]

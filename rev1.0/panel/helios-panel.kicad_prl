@@ -75,11 +75,11 @@
         "open": false,
         "window": {
           "display": 0,
-          "maximized": false,
+          "maximized": true,
           "pos_x": 1225,
           "pos_y": 557,
           "size_x": 1248,
-          "size_y": 1269
+          "size_y": 1192
         }
       }
     ]
