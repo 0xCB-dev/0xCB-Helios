@@ -1,8 +1,0 @@
-use latest kikit (bug with aux origin):
-sudo pip install git+https://github.com/yaqwsx/KiKit@master
-
-Generate panel from PCB:
-kikit panelize -p frame-vcut-2x5.json ../helios.kicad_pcb ./helios-panel.kicad_pcb
-
-Generate production files:
-kikit fab jlcpcb --no-drc --assembly --schematic ../helios.kicad_sch ./helios-panel.kicad_pcb ../prod

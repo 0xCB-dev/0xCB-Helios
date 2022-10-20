@@ -58,7 +58,7 @@
       "drc_exclusions": [
         "copper_edge_clearance|153280000|133580000|09fe1e24-4349-4ba6-bd98-7fdb0d001b4d|36dbbcc3-40ab-47fa-9295-52ad14699c60",
         "copper_edge_clearance|164430000|133580000|d49d4e7b-9f88-426a-9fa9-3667bb463673|6de8492a-e27d-4ce6-b683-6dcb5fd74bfc",
-        "copper_edge_clearance|166475000|134160000|427ed1b7-9b1b-45b1-9bfc-1ab556c5b7df|ff6ac30f-b03c-4109-afda-1a9a6bcf1e3b",
+        "copper_edge_clearance|166475000|134160000|1489b3b3-5946-4689-9d86-7a293fb3c124|ff6ac30f-b03c-4109-afda-1a9a6bcf1e3b",
         "via_dangling|164510000|143440000|9e1300d8-20c5-4006-ad74-df7e0ad45532|00000000-0000-0000-0000-000000000000"
       ],
       "meta": {
