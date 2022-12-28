@@ -14,9 +14,8 @@
 
 - `qmk clone`
 - `cd qmk_firmware`
-- `export LTO=Y`
-- To go to bootloader press the reset button.
-- `make 0xcb/pluto:via:flash`
+- To go to bootloader press the reset button longer than 500ms and release.
+- `make 0xcb/helios:default:flash`
 
 ### Assembly:
 
