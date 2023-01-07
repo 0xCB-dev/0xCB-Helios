@@ -2,18 +2,37 @@
 
 ### RP2040 pro micro drop in
 
-|                              Licence                              |                                                      OSHWA                                                      |
-| :---------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: |
-| ![](https://github.com/0xCB-dev/0xcb-Pluto/blob/main/LICENSE.svg) | [![](https://github.com/0xCB-dev/0xcb-Pluto/blob/main/rev1.0/OSHWA.svg)](https://certification.oshwa.org/.html) |
+|                              Licence                               |                                                      OSHWA                                                       |
+| :----------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
+| ![](https://github.com/0xCB-dev/0xcb-Helios/blob/main/LICENSE.svg) | [![](https://github.com/0xCB-dev/0xcb-Helios/blob/main/rev1.0/OSHWA.svg)](https://certification.oshwa.org/.html) |
 
 ### Available here:
 
 [KeebSupply](https://keeb.supply/products/0xcb-helios)
 
-### GPIO Functions
+#### Flashing
+
+- `qmk clone`
+- `cd qmk_firmware`
+- To go to bootloader press the reset button longer than 500ms and release.
+- `make 0xcb/helios:default:flash`
+
+### Assembly:
+
+The PCBs are assembled at the fab with the production files located in the /kikit/prod/ dir.
+
+### PCB:
+
+KiCad 6 stable
+
+[Schematic](https://github.com/0xCB-dev/0xcb-Helios/blob/main/rev1.0/helios.pdf)
+
+### Pinout
+
+![](https://github.com/0xCB-dev/0xCB-Helios/blob/main/rev1.0/helios.webp)
 
 | GPIO | F1       | F2        | F3       | F4     | F5  | F6   | F7   | F8           | F9            |
-|------|----------|-----------|----------|--------|-----|------|------|--------------|---------------|
+| ---- | -------- | --------- | -------- | ------ | --- | ---- | ---- | ------------ | ------------- |
 | 0    | SPI0 RX  | UART0 TX  | I2C0 SDA | PWM0 A | SIO | PIO0 | PIO1 |              | USB OVCUR DET |
 | 1    | SPI0 CSn | UART0 RX  | I2C0 SCL | PWM0 B | SIO | PIO0 | PIO1 |              | USB VBUS DET  |
 | 2    | SPI0 SCK | UART0 CTS | I2C1 SDA | PWM1 A | SIO | PIO0 | PIO1 |              | USB VBUS EN   |
@@ -45,45 +64,38 @@
 | 28   | SPI1 RX  | UART0 TX  | I2C0 SDA | PWM6 A | SIO | PIO0 | PIO1 |              | USB VBUS DET  |
 | 29   | SPI1 CSn | UART0 RX  | I2C0 SCL | PWM6 B | SIO | PIO0 | PIO1 |              | USB VBUS EN   |
 
-
-#### Flashing
-
-- `qmk clone`
-- `cd qmk_firmware`
-- `export LTO=Y`
-- To go to bootloader press the reset button.
-- `make 0xcb/pluto:via:flash`
-
-### Assembly:
-
-You can use the [humanpnp](https://files.0xcb.dev/0xCB-Pluto/humanpnp.html) to easily place components.
-
-### PCB:
-
-KiCad 6 stable
-
-[Schematic](https://github.com/0xCB-dev/0xcb-Pluto/blob/main/rev1.0/pluto.pdf)
-
-|                                    Top                                     |                                    Bottom                                     |
-| :------------------------------------------------------------------------: | :---------------------------------------------------------------------------: |
-| ![](https://github.com/0xCB-dev/0xCB-Pluto/blob/main/rev1.0/pluto.top.png) | ![](https://github.com/0xCB-dev/0xcb-Pluto/blob/main/rev1.0/pluto.bottom.png) |
-
 #### BOM:
 
-| References     | Value       | Quantity | Part Nb.            |
-| -------------- | ----------- | -------- | ------------------- |
-| C3, C4, C7, C8 | 100n        | 4        | C478888             |
-| C2, C9, C10    | 1u          | 3        | C29936              |
-| C5, C6         | 22p         | 2        | C85969              |
-| C1             | 10u         | 1        | C85713              |
-| R1, R2         | 5.1k        | 2        | C23186              |
-| R4, R5         | 22          | 2        | C174301             |
-| R3, R6         | 10k         | 2        | C98220              |
-| D1             | SMF5.0CA    | 1        | 576-SMF5.0CA        |
-| U1             | USBLC6-2SC6 | 1        | C7519               |
-| U2             | ATMEGA32U4  | 1        | ATMEGA32U4RC-MU-ND  |
-| Y1             | 16MHz       | 1        | C389842             |
-| F1             | 1A          | 1        | C369150             |
-| SW1            | SW_Push     | 1        | C589221             |
-| FB1, FB2       | 600R        | 2        | C74330              |
-| J1             | USB_IN      | 1        | 900-2169900001CT-ND |
+| Comment                 | Designator                             | Footprint                                           | LCSC     |
+| ----------------------- | -------------------------------------- | --------------------------------------------------- | -------- |
+| 4u7                     | C1                                     | Capacitor_SMD:C_0402_1005Metric                     | C23733   |
+| 10u                     | C2,C3,C4,C5                            | Capacitor_SMD:C_0402_1005Metric                     | C15525   |
+| 100n                    | C6,C11,C12,C13,C14,C15,C16,C17,C18,C19 | Capacitor_SMD:C_0402_1005Metric                     | C1525    |
+| 15p                     | C7,C8                                  | Capacitor_SMD:C_0402_1005Metric                     | C1548    |
+| 1u                      | C9,C10                                 | Capacitor_SMD:C_0402_1005Metric                     | C52923   |
+| Power LED               | D1                                     | Diode_SMD:D_0402_1005Metric                         | C130719  |
+| User LED                | D2                                     | Diode_SMD:D_0402_1005Metric                         | C130724  |
+| PMEG2010BELD            | D3                                     | 0xcb:SOD882D                                        | C552820  |
+| 500mA                   | F1                                     | Fuse:Fuse_0603_1608Metric                           | C210357  |
+| 600R                    | FB1                                    | Resistor_SMD:R_0402_1005Metric                      | C160977  |
+| USB_C_Receptacle_USB2.0 | J1                                     | 0xcb:GT-USB-7014C                                   | C963373  |
+| 2N7002VC-               | Q1,Q2                                  | Package_TO_SOT_SMD:SOT-563                          | C504145  |
+| 10k                     | R1,R2,R3,R11,R17                       | Resistor_SMD:R_0402_1005Metric                      | C25744   |
+| 51K                     | R4,R5,R6                               | Resistor_SMD:R_0402_1005Metric                      | C25794   |
+| 5k1                     | R7,R8,R16                              | Resistor_SMD:R_0402_1005Metric                      | C25905   |
+| 1K                      | R9                                     | Resistor_SMD:R_0402_1005Metric                      | C11702   |
+| 1k                      | R10,R14,R15                            | Resistor_SMD:R_0402_1005Metric                      | C11702   |
+| 27R                     | R12,R13                                | Resistor_SMD:R_0402_1005Metric                      | C25100   |
+| SWITCH                  | SW1                                    | 0xcb:1.9x2.8mm SW                                   | C589221  |
+| USBLC6-2P6              | U1                                     | Package_TO_SOT_SMD:SOT-666                          | C2827693 |
+| TLV75533PDQNR           | U2                                     | 0xcb:X2SON-4                                        | C2861882 |
+| W25Q128JVPIQ            | U3                                     | 0xcb:W25Q128JVPIQ                                   | C190862  |
+| RP2040                  | U4                                     | Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm | C2040    |
+| 74LVC1T45               | U5                                     | Package_TO_SOT_SMD:SOT-563                          | C352970  |
+| 12MHz                   | Y1                                     | Crystal:Crystal_SMD_2520-4Pin_2.5x2.0mm             | C2149204 |
+
+### Credits
+
+The awesome one button reset circuit is based on the one used on the [Sea-picro](https://github.com/joshajohnson/sea-picro) by joshajohnson and this very well written [article](https://acheronproject.com/reset_article_1/reset_article_1/) by the Acheron Project.
+
+Thank you! :heart:
