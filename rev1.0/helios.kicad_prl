@@ -1,7 +1,7 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "",
+    "active_layer_preset": "All Copper Layers",
     "auto_track_width": true,
     "hidden_nets": [],
     "high_contrast_mode": 0,
@@ -62,7 +62,7 @@
       35,
       36
     ],
-    "visible_layers": "0001020_ffffffff",
+    "visible_layers": "0001000_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
@@ -73,14 +73,14 @@
     "files": [
       {
         "name": "helios.kicad_pcb",
-        "open": false,
+        "open": true,
         "window": {
           "display": 0,
           "maximized": true,
-          "pos_x": 644,
-          "pos_y": 484,
-          "size_x": 1280,
-          "size_y": 566
+          "pos_x": 1014,
+          "pos_y": 693,
+          "size_x": 532,
+          "size_y": 952
         }
       }
     ]
