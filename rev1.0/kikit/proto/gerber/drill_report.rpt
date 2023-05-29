@@ -1,5 +1,5 @@
 Drill report for helios.kicad_pcb
-Created on Thu Oct 20 21:47:42 2022
+Created on Mon May 29 12:25:48 2023
 
 Copper Layer Stackup:
     =============================================================
@@ -15,9 +15,10 @@ Drill file 'helios.drl' contains
     T1  0.200mm  0.0079"  (111 holes)
     T2  0.300mm  0.0118"  (7 holes)
     T3  0.600mm  0.0236"  (4 holes)  (with 4 slots)
-    T4  1.092mm  0.0430"  (34 holes)
+    T4  1.000mm  0.0394"  (34 holes)
+    T5  1.300mm  0.0512"  (31 holes)
 
-    Total plated holes count 156
+    Total plated holes count 187
 
 
 Not plated through holes are merged with plated holes

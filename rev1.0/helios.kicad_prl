@@ -1,12 +1,14 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "All Copper Layers",
+    "active_layer_preset": "",
     "auto_track_width": true,
+    "hidden_netclasses": [],
     "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
+      "images": 0.6,
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
@@ -39,7 +41,6 @@
       11,
       12,
       13,
-      14,
       15,
       16,
       17,
@@ -60,9 +61,11 @@
       33,
       34,
       35,
-      36
+      36,
+      39,
+      40
     ],
-    "visible_layers": "0001000_ffffffff",
+    "visible_layers": "0001080_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
@@ -73,14 +76,26 @@
     "files": [
       {
         "name": "helios.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 0,
+          "maximized": true,
+          "pos_x": 640,
+          "pos_y": 881,
+          "size_x": 1280,
+          "size_y": 498
+        }
+      },
+      {
+        "name": "helios.kicad_sch",
         "open": true,
         "window": {
           "display": 0,
           "maximized": true,
-          "pos_x": 1014,
-          "pos_y": 693,
-          "size_x": 532,
-          "size_y": 952
+          "pos_x": 431,
+          "pos_y": 745,
+          "size_x": 1698,
+          "size_y": 910
         }
       }
     ]

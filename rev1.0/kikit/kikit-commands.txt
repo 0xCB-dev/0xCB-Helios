@@ -1,11 +1,8 @@
-use latest kikit (bug with aux origin):
-sudo pip install git+https://github.com/yaqwsx/KiKit@master
-
 Generate panel from PCB:
-kikit panelize -p frame-vcut-2x5.json ../helios.kicad_pcb ./panel/helios-panel.kicad_pcb
+docker run -v $(pwd):/kikit yaqwsx/kikit:v1.3.0-v7 panelize -p ./kikit/frame-vcut-2x5.json ./helios.kicad_pcb ./kikit/panel/helios-panel.kicad_pcb
 
 Generate production files:
-kikit fab jlcpcb --no-drc --assembly --schematic ../helios.kicad_sch ./panel/helios-panel.kicad_pcb ./prod
+docker run -v $(pwd):/kikit yaqwsx/kikit:v1.3.0-v7 fab jlcpcb --no-drc --assembly --schematic ./helios.kicad_sch ./kikit/panel/helios-panel.kicad_pcb ./kikit/prod
 
 Generate proto single files:
-kikit fab jlcpcb --no-drc --assembly --schematic ../helios.kicad_sch ../helios.kicad_pcb ./proto
+docker run -v $(pwd):/kikit yaqwsx/kikit:v1.3.0-v7 fab jlcpcb --no-drc --assembly --schematic ./helios.kicad_sch ./helios.kicad_pcb ./kikit/proto
