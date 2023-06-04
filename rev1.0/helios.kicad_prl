@@ -71,31 +71,6 @@
     "version": 3
   },
   "project": {
-    "files": [
-      {
-        "name": "helios.kicad_pcb",
-        "open": false,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 640,
-          "pos_y": 881,
-          "size_x": 1280,
-          "size_y": 498
-        }
-      },
-      {
-        "name": "helios.kicad_sch",
-        "open": true,
-        "window": {
-          "display": 0,
-          "maximized": true,
-          "pos_x": 431,
-          "pos_y": 745,
-          "size_x": 1698,
-          "size_y": 910
-        }
-      }
-    ]
+    "files": []
   }
 }
