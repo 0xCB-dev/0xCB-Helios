@@ -1,8 +1,0 @@
-Generate panel from PCB:
-docker run -v $(pwd):/kikit yaqwsx/kikit:v1.3.0-v7 panelize -p ./kikit/frame-vcut-2x5.json ./helios.kicad_pcb ./kikit/panel/helios-panel.kicad_pcb
-
-Generate production files:
-docker run -v $(pwd):/kikit yaqwsx/kikit:v1.3.0-v7 fab jlcpcb --no-drc --assembly --schematic ./helios.kicad_sch ./kikit/panel/helios-panel.kicad_pcb ./kikit/prod
-
-Generate proto single files:
-docker run -v $(pwd):/kikit yaqwsx/kikit:v1.3.0-v7 fab jlcpcb --no-drc --assembly --schematic ./helios.kicad_sch ./helios.kicad_pcb ./kikit/proto
