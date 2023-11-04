@@ -14,7 +14,7 @@
 
 - `qmk clone`
 - `cd qmk_firmware`
-- To go to bootloader press the reset button longer than 500ms and release.
+- To go to bootloader press the reset button longer than 500ms and release. Alternatively you can short the RST pin to GND, as it's wired to the reset button.
 - `make 0xcb/helios:default:flash`
 
 ### Assembly:
