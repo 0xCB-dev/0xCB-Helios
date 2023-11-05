@@ -33,7 +33,7 @@ If you need any help integrating Helios into your keyboard PCB, please feel free
 
 ### PCB
 
-KiCad 6 stable
+KiCad 7 stable
 
 [Schematic](https://github.com/0xCB-dev/0xcb-Helios/blob/main/rev1.0/helios.pdf)
 
