@@ -9,7 +9,9 @@
 ### Available here
 
 [KeebSupply](https://keeb.supply/products/0xcb-helios)
+
 [Ringer Keys](https://ringerkeys.com/collections/modders-tools/products/0xcb-helios)
+
 [Keycapsss](https://keycapsss.com/keyboard-parts/mcu-controller/257/0xcb-helios-pro-micro/elite-c-compatible-microcontroller-with-rp2040?c=22)
 
 #### Flashing
@@ -23,7 +25,7 @@
 
 The PCBs are assembled at the fab with the production files located in the /kikit/prod/ dir.
 
-### Integration in your own Design
+### Integration in your own design
 
 We strongly recommend that you take a look at [ebastler's symbol and footprint library for KiCAD](https://github.com/ebastler/marbastlib).
 The Helios files are located in the "promicroish" folder with various mounting options to choose from. 
