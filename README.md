@@ -6,7 +6,9 @@
 | :----------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
 | ![](https://github.com/0xCB-dev/0xcb-Helios/blob/main/LICENSE.svg) | [![](https://github.com/0xCB-dev/0xcb-Helios/blob/main/rev1.0/OSHWA.svg)](https://certification.oshwa.org/de000131.html) |
 
-### Available here
+### Official vendors
+
+Purchasing Helios from any vendors listed here directly supports our work. Helios controllers sourced from vendors not listed here and not produced by us will not receive the same level of support and may have varying degrees of quality
 
 [KeebSupply](https://keeb.supply/products/0xcb-helios)
 
