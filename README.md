@@ -6,9 +6,11 @@
 | :----------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: |
 | ![](https://github.com/0xCB-dev/0xcb-Helios/blob/main/LICENSE.svg) | [![](https://github.com/0xCB-dev/0xcb-Helios/blob/main/rev1.0/OSHWA.svg)](https://certification.oshwa.org/de000131.html) |
 
-### Available here:
+### Available here
 
 [KeebSupply](https://keeb.supply/products/0xcb-helios)
+[Ringer Keys](https://ringerkeys.com/collections/modders-tools/products/0xcb-helios)
+[Keycapsss](https://keycapsss.com/keyboard-parts/mcu-controller/257/0xcb-helios-pro-micro/elite-c-compatible-microcontroller-with-rp2040?c=22)
 
 #### Flashing
 
@@ -17,11 +19,17 @@
 - To go to bootloader press the reset button longer than 500ms and release. Alternatively you can short the RST pin to GND, as it's wired to the reset button.
 - `make 0xcb/helios:default:flash`
 
-### Assembly:
+### Assembly
 
 The PCBs are assembled at the fab with the production files located in the /kikit/prod/ dir.
 
-### PCB:
+### Integration in your own Design
+
+We strongly recommend that you take a look at [ebastler's symbol and footprint library for KiCAD](https://github.com/ebastler/marbastlib).
+The Helios files are located in the "promicroish" folder with various mounting options to choose from. 
+If you need any help integrating Helios into your keyboard PCB, please feel free to contact us.
+
+### PCB
 
 KiCad 6 stable
 

@@ -1,0 +1,28 @@
+Drill report for helios.kicad_pcb
+Created on Tue Oct 10 20:55:23 2023
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'helios.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.200mm  0.0079"  (111 holes)
+    T2  0.300mm  0.0118"  (7 holes)
+    T3  0.600mm  0.0236"  (4 holes)  (with 4 slots)
+    T4  1.000mm  0.0394"  (34 holes)
+    T5  1.300mm  0.0512"  (31 holes)
+
+    Total plated holes count 187
+
+
+Not plated through holes are merged with plated holes
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0
