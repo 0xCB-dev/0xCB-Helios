@@ -10,11 +10,18 @@
 
 Purchasing Helios from any vendors listed here directly supports our work. Helios controllers sourced from vendors not listed here and not produced by us will not receive the same level of support and may have varying degrees of quality
 
-[KeebSupply](https://keeb.supply/products/0xcb-helios)
+### EU:
 
-[Ringer Keys](https://ringerkeys.com/collections/modders-tools/products/0xcb-helios)
+Germany: [KeebSupply](https://keeb.supply/products/0xcb-helios)
 
-[Keycapsss](https://keycapsss.com/keyboard-parts/mcu-controller/257/0xcb-helios-pro-micro/elite-c-compatible-microcontroller-with-rp2040?c=22)
+Germany: [Keycapsss](https://keycapsss.com/keyboard-parts/mcu-controller/257/0xcb-helios-pro-micro/elite-c-compatible-microcontroller-with-rp2040?c=22)
+
+### North America:
+
+America: [Ringer Keys](https://ringerkeys.com/collections/modders-tools/products/0xcb-helios)
+
+Canada: [RNDKBD](https://rndkbd.com/products/0xcb-helios-microcontroller)
+
 
 #### Flashing
 
