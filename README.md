@@ -8,7 +8,7 @@
 
 ### Official vendors
 
-Purchasing Helios from any vendors listed here directly supports our work. Helios controllers sourced from vendors not listed here and not produced by us will not receive the same level of support and may have varying degrees of quality
+Purchasing Helios from any vendors listed here directly supports our work. Helios controllers sourced from vendors not listed here and not produced by us will not receive the same level of support and may have varying degrees of quality.
 
 ### EU:
 
