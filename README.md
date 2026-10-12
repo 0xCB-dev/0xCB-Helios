@@ -16,9 +16,11 @@ Germany: [KeebSupply](https://keeb.supply/products/0xcb-helios)
 
 Germany: [Keycapsss](https://keycapsss.com/keyboard-parts/mcu-controller/257/0xcb-helios-pro-micro/elite-c-compatible-microcontroller-with-rp2040?c=22)
 
-### North America:
+### Worldwide:
 
-America: [Ringer Keys](https://ringerkeys.com/collections/modders-tools/products/0xcb-helios)
+UK: [ProtoTypist](https://prototypist.net/products/in-stock-keeb-supply-0xcb-helios)
+
+USA: [Ringer Keys](https://ringerkeys.com/collections/modders-tools/products/0xcb-helios)
 
 Canada: [RNDKBD](https://rndkbd.com/products/0xcb-helios-microcontroller)
 
